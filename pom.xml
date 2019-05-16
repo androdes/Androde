@@ -7,8 +7,8 @@
 
     <artifactId>spring-rest-hello-world</artifactId>
     <packaging>jar</packaging>
-    <name>Spring Boot REST API Example</name>
-    <version>1.0</version>
+    <name>ClickoTickets</name>
+    <version>1.0-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -24,6 +24,14 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+        </dependency>
 
         <!-- spring mvc, rest -->
         <dependency>
